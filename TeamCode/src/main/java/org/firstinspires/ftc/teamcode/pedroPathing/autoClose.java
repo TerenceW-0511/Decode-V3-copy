@@ -21,8 +21,6 @@ public class autoClose extends OpMode {
     private Follower follower;
     private Timer pathTimer, actionTimer, opmodeTimer, followerDoneTimer;
     private Hardware robot;
-
-
     private Methods intakePID,transferPID,flywheelPID,methods;
     private boolean followerDoneDelay = false;
     private double curr=0,rpmError = 0;
